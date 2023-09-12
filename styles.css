@@ -1,3 +1,5 @@
+/* Light Mode Styles */
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -46,7 +48,7 @@ h1 {
     background-color: #0056b3;
 }
 
-button {
+.submit-button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -58,6 +60,34 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.submit-button:hover {
     background-color: #0056b3;
+}
+
+
+/* Dark Mode Styles */
+
+.dark-mode body {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .quiz-container {
+    background-color: #555;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode h1 {
+    color: #007bff;
+}
+
+.dark-mode .question {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.dark-mode .options button {
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
