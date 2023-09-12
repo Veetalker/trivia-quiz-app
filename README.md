@@ -70,6 +70,6 @@ function toggleDarkMode() {
 }
 
 **Conclusion:**
-The above enhancements have significantly improved the comprehensiveness of your Quiz Trivia web application. 
+The above enhancements have significantly improved the comprehensiveness of the Quiz Trivia web application. 
 By incorporating classes, switch statements, and try-catch-finally statements, the codebase is now well-structured, error-resistant, and provides an enhanced user experience. 
 These improvements will contribute to a smoother and more enjoyable interaction with your application.
