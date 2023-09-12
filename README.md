@@ -12,12 +12,14 @@ class Question {
     this.correctAnswer = correctAnswer;
   }
 }
+
 **Displaying Questions:**
 The displayQuestion function was created to render questions and options on the webpage. This function dynamically updates the DOM based on the current question.
 javascript
 function displayQuestion(question) {
   // Code to display question and options...
 }
+
 **Handling User Answers:**
 The checkAnswer function validates user-selected options and compares them to the correct answer using an event listener on the buttons.
 javascript
@@ -31,6 +33,7 @@ function checkAnswer(event) {
     displayResult(false);
   }
 }
+
 **Displaying Results:**
 The displayResult function provides feedback to the user, notifying them if their answer was correct or incorrect. This function incorporates a try-catch-finally statement for error handling.
 javascript
@@ -44,6 +47,7 @@ function displayResult(isCorrect) {
     loadNextQuestion();
   }
 }
+
 **Load Next Question:**
 The loadNextQuestion function advances to the next question in the sequence, updating the DOM with the new question.
 javascript
@@ -56,6 +60,7 @@ function loadNextQuestion() {
     alert('Quiz finished.');
   }
 }
+
 **Switching Dark Mode:**
 A toggleDarkMode function was added to toggle between light and dark modes, enhancing user experience. 
 This function incorporates a class switch statement.
@@ -63,6 +68,7 @@ javascript
 function toggleDarkMode() {
   document.body.classList.toggle('dark-mode');
 }
+
 **Conclusion:**
 The above enhancements have significantly improved the comprehensiveness of your Quiz Trivia web application. 
 By incorporating classes, switch statements, and try-catch-finally statements, the codebase is now well-structured, error-resistant, and provides an enhanced user experience. 
